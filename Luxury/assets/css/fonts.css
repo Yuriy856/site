@@ -1,0 +1,8 @@
+
+@font-face {
+    font-family: 'Adobe_Garamond_Pro';
+    src: url('/assets/fonts/Adobe_Garamond_Pro_Bold/AdobeGaramondProBold.eot');
+    src: url('/assets/fonts/Adobe_Garamond_Pro_Bold/AdobeGaramondProBold.woff') format('woff'), url('/assets/fonts/Adobe_Garamond_Pro_Bold/AdobeGaramondProBold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}
