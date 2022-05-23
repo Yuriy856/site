@@ -22,7 +22,7 @@ ul {
 /* 1.HEADER =================================================*/
 
 header {
-    background: url('/assets/img/Home/MaskGroup.png') center no-repeat;
+    background: url('../img/Home/MaskGroup.png') center no-repeat;
     z-index: 1;
     width: 100%;
 }
@@ -179,7 +179,7 @@ header {
     font-weight: 700;
     text-decoration: none;
 
-    background: #E0B973 url('assets/img/Home/Group\ 37.png') 13.2% 50% no-repeat;
+    background: #E0B973 url('../img/Home/Group\ 37.png') 13.2% 50% no-repeat;
     border-radius: 11px;
     border: 1px solid #E0B973;
     
