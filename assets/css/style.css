@@ -22,7 +22,7 @@ ul {
 /* 1.HEADER =================================================*/
 
 header {
-    background: url('assets/img/Home/MaskGroup.png') center no-repeat;
+    background: url('/assets/img/Home/MaskGroup.png') center no-repeat;
     z-index: 1;
     width: 100%;
 }
