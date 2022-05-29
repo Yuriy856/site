@@ -21,24 +21,6 @@
         transition: all .15s linear;
     }
 
-    .welcome h1{
-        font-size: 20vw;
-    }
-
-    .welcome {
-        text-align: center;
-    }
-
-    .menu__svg {
-        fill: white;
-        display: flex;
-        align-items: center;
-        width: 50px;
-        height: 35px;
-    
-        transition: all .15s linear;
-    }
-
     .header__linkd:hover .menu__svg {
         fill: #E0B973;
     }
@@ -51,11 +33,28 @@
         display: block;
     }
 
+    .menu__svg {
+        fill: white;
+        display: flex;
+        align-items: center;
+        width: 50px;
+        height: 35px;
+    
+        transition: all .15s linear;
+    }
 
-    /* main */
+    .welcome h1{
+        font-size: 20vw;
+    }
+
+    .welcome {
+        text-align: center;
+    }
+
     .sub__menu__list {
         display: none;
-        width: 200px;
+        width: 100%;
+        max-width: 150px;
         position: absolute;
         right: 20px;
 
@@ -81,6 +80,9 @@
         color: #E0B973;
         border-radius: 5px;
     }
+
+
+    /* main */
 
     main .main__inform {
         padding: 50px 0 20px;
