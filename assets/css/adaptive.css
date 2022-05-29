@@ -87,13 +87,23 @@
         border-radius: 5px;
     }
 
-    .footer__content {
-        flex-wrap: wrap;
+    footer .footer__content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
     }
 
-    .footer__content {
-        padding: 20px;
+    .footer__blok, .footer__link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+
+    .footer__blok {
+        margin: 0 0 10px;
+    }
+
 
 
 
