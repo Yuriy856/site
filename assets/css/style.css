@@ -382,13 +382,27 @@ header {
     height: 50px;
 
     background: #E0B973;
+    border: 1px solid #E0B973;
     border-radius: 11px;
+
+    transition: all .15s linear;
+}
+
+.main__test__btn:hover {
+    background-color: #fff;
+}
+
+.main__test__btn:hover .main__svg {
+    fill: #E0B973;
 }
 
 .main__svg {
     display: block;
     width: 13px;
     height: 20px;
+
+    fill: #fff;
+    transition: all .15s linear;
 }
 
 
