@@ -10,3 +10,79 @@
 }
 
 /* main */
+
+.container__facs {
+    max-width: 1620px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.facs__subtext {
+    max-width: 1570px;
+    margin: 0 auto 82px;
+    padding: 0 20px;
+    line-height: 30.48px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.facs__title {
+    margin: 82px 0 34px;        
+    font-size: 60px;
+    letter-spacing: 3px;
+    font-family: 'Adobe_Garamond_Pro', sans-serif;
+}
+
+.facs__content {
+    padding: 0 20px;
+}
+
+.facs__content .facs__m {
+    margin: 0 0 113px;
+}
+
+.facs__block {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 0 0 186px;
+}
+
+.facs__block img {
+    width: 100%;
+    height: auto;
+}
+
+.facs__img__fon {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.facs__name {
+    display: grid; 
+    place-items: center; 
+
+    position: absolute;
+    bottom: 0;
+
+    max-width: 684px;
+    width: 100%;
+    min-height: 75px;
+    background-color: #fff;
+
+    color: #14274A;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    text-decoration: none;
+
+    transition: all .1s linear;
+}
+
+.facs__name:hover {
+    background-color: #E0B973;
+    color: #fff;
+}

@@ -120,6 +120,10 @@
         justify-content: center;
     }
 
+    .main__test h3 {
+        font-size: 10vw;
+    }
+
 
 
     /* footer */
@@ -150,6 +154,28 @@
     footer .footer__email {
         width: 350px;
     }
+
+
+
+    /* FACILITIES =============================================
+    ========================================================= */
+
+
+    .container__facs h2 {
+        font-size: 10vw;
+    }
+
+    .container__facs .facs__block {
+        margin: 0 0 50px;
+    }
+
+    .facs__name {
+        opacity: .8;
+    }
+
+
+
+
 }
 
 
