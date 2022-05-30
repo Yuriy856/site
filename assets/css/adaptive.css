@@ -47,6 +47,10 @@
         font-size: 20vw;
     }
 
+    .welcome h2 {
+        font-size: 10vw;
+    }
+
     .welcome {
         text-align: center;
     }

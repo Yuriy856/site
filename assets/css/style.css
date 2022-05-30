@@ -1,6 +1,7 @@
 /* FONTS */
 @import url('fonts.css');
 @import url('adaptive.css');
+@import url('facilities.css');
 
 
 /* ZERO */
@@ -21,7 +22,7 @@ ul {
 
 /* 1.HEADER =================================================*/
 
-header {
+.header1 {
     background: url('../img/Home/MaskGroup.png') center no-repeat;
     z-index: 1;
     width: 100%;
