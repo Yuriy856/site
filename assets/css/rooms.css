@@ -1,0 +1,163 @@
+
+
+.container__rooms {
+    max-width: 1642px;
+    padding: 0 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.rooms__title {
+    margin: 82px 0 34px;        
+    font-size: 60px;
+    letter-spacing: 3px;
+    font-family: 'Adobe_Garamond_Pro', sans-serif;
+}
+
+.rooms__subtext {
+    max-width: 1354px;
+    margin: 0 auto 82px;
+    padding: 0 20px;
+
+    line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.rooms__block {
+    max-width: 1602px;
+}
+
+.rooms__blok {
+    display: flex;
+    justify-content: center;
+    max-width: 1602px;
+    position: relative;
+}
+
+.rooms__img {
+    width: 100%;
+    height: auto;
+}
+
+.rooms__img__fon {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: auto;
+}
+
+.rooms__name {
+    display: grid;
+    place-items: center;
+
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    min-height: 145px;
+    text-align: center;
+    background-color: #14274A;
+
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px;
+    color: #fff;
+}
+
+.rooms__item {
+    position: absolute;
+    bottom: 180px;
+
+    width: 100px;
+    height: 20px;
+}
+
+.rooms__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.r_item {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.r_item_active {
+    background-color: #fff;
+}
+
+.rooms__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 235px;
+    border: 2px solid #000;
+    border-top: none;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.rooms__detail {
+    width: 1314px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rooms__det {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.rooms__link {
+    padding: 25px 44px;
+    background-color: #E0B973;
+    border-radius: 10px;
+    border: 1px solid #E0B973;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #fff;
+
+    transition: all .15s linear;
+}
+
+.rooms__det__item {
+    min-width: 50px;
+    min-height: 50px;
+    margin: 0 40px 0 0;
+    display: grid;
+    place-items: center;
+
+    border-radius: 50%;
+    border: 1px solid #E0B973;
+    background-color: #E0B973;
+    
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    color: #fff;
+
+    transition: all .15s linear;
+}
+
+.rooms__det__item:hover, .rooms__link:hover  {
+    background-color: #fff;
+    color: #E0B973;
+}
+

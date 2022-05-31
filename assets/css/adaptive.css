@@ -176,6 +176,25 @@
 
 
 
+    /* ROOMS =============================================
+    ========================================================= */
+
+    .container__rooms h2 {
+        font-size: 10vw;
+    }
+
+    .container__rooms .rooms__name {
+        font-size: 8vw;
+        opacity: .8;
+    }
+
+    .container__rooms .rooms__item {
+        position: absolute;
+        bottom: 15px;
+    }
+
+
+
 }
 
 
