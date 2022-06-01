@@ -1,0 +1,160 @@
+
+
+.header4 {
+    height: 465px;
+    background: #14274A;
+}
+
+.header4 .contact__top {
+    margin: 0 0 47px;
+}
+
+.container__contact {
+    max-width: 1549px;
+    margin: 261px auto 0;
+    padding: 0 20px;
+}
+
+.contact__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contact__title h1 {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 98px;
+    color: #fff;
+}
+
+.contact__subtitle {
+    font-family: 'Adobe_Garamond_Pro', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.contact__subtext {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    margin: 0 0 167px;
+}
+
+
+.contact__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 0 463px;
+}
+
+.contacts {
+    max-width: 653px;
+    margin: 0 0 40px;
+}
+
+.contact__adress {
+    display: block;
+    margin: 0 0 28px;
+
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+.contact__item {
+    display: block;
+    margin: 0 0 54px;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+.contact__link, .contact__links {
+    text-decoration: none;
+    color: #14274A;
+    font-size: 40px;
+    line-height: 49px;
+
+    transition: color .15s linear;
+}
+
+.contact__link:hover {
+    color: #E0B973;
+}
+
+/* form */
+
+.contact__form {
+    width: 570px;
+    height: 809px;
+    position: relative;
+}
+
+
+.contact__label {
+    display: block;
+    margin: 0 0 7px;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+#name, #email, #message {
+    width: 100%;
+    margin: 0 0 30px;
+    padding: 20px;
+    font-family: 'Arial';
+    font-size: 25px;
+    border: 2px solid rgba(20, 39, 74, 0.5);
+    color: #14274A;
+    outline: none;
+}
+
+#name, #email {
+    height: 78px;
+}
+
+#message {
+    height: 352px;
+    resize: none;
+}
+
+#btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    display: block;
+
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    cursor: pointer;
+
+    color: #FFFFFF;
+    background-color: #E0B973;
+    border: 1px solid #E0B973;
+    padding: 20px 25px;
+    border-radius: 8px;
+
+    transition: all .15s linear;
+}
+
+#btn:hover {
+    background-color: #fff;
+    color: #E0B973;
+}
+
+
+
+

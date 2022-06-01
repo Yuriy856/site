@@ -209,10 +209,34 @@
         margin: 20px 0 30px;
     }
 
+    /* CONTACT =============================================
+    ========================================================= */
+
+    .header4 {
+        max-height: 320px;
+    }
+
+    .header4 .contact__title h1 {
+        font-size: 10vw;
+    }
 
 
 
+}
 
+
+/* MEDIA 1270px */
+
+@media (max-width: 1270px) {
+    .container__contact .contact__content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact__form #btn {
+        position: absolute;
+        bottom: 0;
+    }
 }
 
 
