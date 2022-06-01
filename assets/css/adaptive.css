@@ -212,6 +212,15 @@
     /* CONTACT =============================================
     ========================================================= */
 
+
+    .main .container__contact {
+        margin: 100px 0 0;
+    }
+
+    .container__contact .contact__subtext {
+         margin: 0 0 100px;
+    }
+
     .header4 {
         max-height: 320px;
     }
@@ -219,6 +228,29 @@
     .header4 .contact__title h1 {
         font-size: 10vw;
     }
+
+    .contact__form #btn {
+        position: absolute;
+        left: 50%;
+    }
+
+    .contacts .contact__adress {
+        font-size: 6vw;
+    }
+
+    .contacts .contact__item {
+        font-size: 6vw;
+    }
+
+    .contacts .contact__links {
+        font-size: 6vw;
+    }
+
+    .contacts .contact__link {
+        font-size: 6vw;
+    }
+
+    
 
 
 
@@ -233,10 +265,6 @@
         justify-content: center;
     }
 
-    .contact__form #btn {
-        position: absolute;
-        bottom: 0;
-    }
 }
 
 
