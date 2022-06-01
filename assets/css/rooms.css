@@ -1,5 +1,12 @@
 
 
+.header3 {
+    background: url('../img/Rooms/header.png') center no-repeat;
+    z-index: 1;
+    width: 100%;
+}
+
+
 .container__rooms {
     max-width: 1642px;
     padding: 0 20px;
@@ -111,6 +118,7 @@
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .rooms__det {

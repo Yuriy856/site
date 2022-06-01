@@ -193,6 +193,15 @@
         bottom: 15px;
     }
 
+    .container__rooms .rooms__detail {
+        display: flex;
+        justify-content: center;
+    }
+
+    .rooms__det {
+        margin: 0 0 30px;
+    }
+
 
 
 }
