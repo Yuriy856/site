@@ -229,10 +229,6 @@
         font-size: 10vw;
     }
 
-    .contact__form #btn {
-        position: absolute;
-        left: 50%;
-    }
 
     .contacts .contact__adress {
         font-size: 6vw;
