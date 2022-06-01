@@ -184,8 +184,15 @@
     }
 
     .container__rooms .rooms__name {
+        position: absolute;
+        top: 0;
+        bottom: ;
         font-size: 8vw;
         opacity: .8;
+    }
+
+    .container__rooms .rooms__link {
+        margin: 0 0 20px;
     }
 
     .container__rooms .rooms__item {
@@ -196,11 +203,17 @@
     .container__rooms .rooms__detail {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
     }
 
     .rooms__det {
         margin: 0 0 30px;
     }
+
+    .container__rooms .rooms__details {
+        min-height: 235px;
+    }
+
 
 
 
