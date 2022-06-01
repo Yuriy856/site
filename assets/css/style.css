@@ -107,7 +107,7 @@ ul {
     color: #fff;
 }
 
-.nav_link:after {
+.nav_link:after, .sub__link::after {
     content: '';
     display: block;
     position: absolute;
