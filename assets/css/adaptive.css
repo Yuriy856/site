@@ -229,6 +229,10 @@
         width: 100%;
     }
 
+    .container__contact .contact__content {
+        margin: 0 0 200px;
+    }
+
     .header4 {
         max-height: 320px;
     }
