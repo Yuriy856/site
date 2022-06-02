@@ -221,6 +221,14 @@
          margin: 0 0 100px;
     }
 
+    .container__contact .contact__subtitle {
+        font-size: 8vw;
+    }
+
+    .container__contact .contact__form #btn {
+        width: 100%;
+    }
+
     .header4 {
         max-height: 320px;
     }
@@ -246,6 +254,7 @@
         font-size: 6vw;
     }
 
+
     
 
 
@@ -255,7 +264,7 @@
 
 /* MEDIA 1270px */
 
-@media (max-width: 1270px) {
+@media (max-width: 1300px) {
     .container__contact .contact__content {
         display: flex;
         justify-content: center;
