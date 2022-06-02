@@ -241,6 +241,11 @@
         font-size: 10vw;
     }
 
+    .container__contact .contact__map {
+        width: 70px;
+        height: 30px;
+    }
+
 
     .contacts .contact__adress {
         font-size: 6vw;

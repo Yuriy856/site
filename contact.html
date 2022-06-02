@@ -61,6 +61,15 @@
         </symbol>
     </svg>
 
+    <svg style="display: none;">
+        <symbol id="view" viewBox="0 0 15.698 8.706">
+            <g>
+                <polygon points="11.354,0 10.646,0.706 13.786,3.853 0,3.853 0,4.853 13.786,4.853 10.646,8 11.354,8.706 15.698,4.353 "/>
+            </g>
+        </symbol>
+    </svg>
+
+
 
 
 
@@ -122,7 +131,11 @@
             <div class="contact__content">
                 <div class="contacts">
                     <span class="contact__adress">497 Evergreen Rd. Roseville, <br> CA 95673</span>
-                    <span class="contact__item">View map</span>
+                    <span class="contact__item"><span>View map</span> <a href="#">
+                        <svg class="contact__map">
+                            <use xlink:href="#view"></use>
+                        </svg>
+                    </a></span>
                     <div>
                         <span class="contact__links">Phone: <a class="contact__link" href="tel:+44 345 678 903">+44 345 678 903</a></span>
                     </div>

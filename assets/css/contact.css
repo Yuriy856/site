@@ -68,12 +68,31 @@
 }
 
 .contact__item {
-    display: block;
+    display: flex;
+    align-items: center;
+    max-width: 340px;
     margin: 0 0 54px;
 
     font-weight: 700;
     font-size: 40px;
     line-height: 49px;
+}
+
+.contact__item span {
+    margin: 0 20px 0 0;
+}
+
+.contact__map {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+
+    transition: all .15s linear;
+}
+
+.contact__map:hover {
+    fill: #E0B973;
 }
 
 .contact__link, .contact__links {
